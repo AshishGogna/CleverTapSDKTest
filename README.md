@@ -6,6 +6,11 @@ Requirements of the SDK were to create a GameObject which can be used by the wea
 
 But, the SDK does not need to have a GameObject to be able to show toasts, so only the necessary code files are exported through the package. CleverTapSDK.ShowToast function can be called from the weather app to show the toast.
 
+Example code to show toast: 
+```
+CleverTapSDK.ShowToast("Crispy toast", ToastDuration.Short);
+```
+
 ## Documentation
 
 ### class CleverTapSDK
@@ -29,3 +34,9 @@ Unity's own Package Manager supports [importing packages through a URL to a Git 
 2. Then click on the + button on the upper-left-hand corner of the Package Manager, select "Add package from git URL..." on the context menu, then paste this repo's URL!
 
 While easier to follow than the first method, this one does not support dependency resolution and package upgrading when a new version is released.  So proceed with caution.
+
+#### Through .zip file
+
+1. Download this respository as a .zip file
+2. Unzip
+3. Then click on the + button on the upper-left-hand corner of the Package Manager, select "Add package from disk" on the context menu, then select the package.json file.
