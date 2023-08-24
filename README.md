@@ -1,10 +1,18 @@
 # CleverTap SDK Test Package
 
-- Click the "Releases" link, and download the latest archive as zip or gzip file.
+This SDK provides a way to show toast messages on Android.
 
 ## Documentation
 
-As there are many steps to developing a Unity package, the documentation is currently split into a couple of parts, each covering a specific feature or overview:
+### CleverTapSDK class
+
+#### enum ToastDuration
+Short (Equivalent to Android's Toast.LENGTH_SHORT)
+Long (Equivalent to Android's Toast.LENGTH_LONG)
+
+#### Methods
+ShowToast(string text, ToastDuration duration)
+Shows a toast when the runtime environment is Android.
 
 ## Install
 
