@@ -2,6 +2,10 @@
 
 This SDK provides a way to show toast messages on Android.
 
+Requirements of the SDK were to create a GameObject which can be used by the weather app, upon clicking which, a Toast containing the temperature will be shown. 
+
+But, the SDK does not need to have a GameObject to be able to show toasts, so only the necessary code files are exported through the package. CleverTapSDK.ShowToast function can be called from the weather app to show the toast.
+
 ## Documentation
 
 ### class CleverTapSDK
@@ -14,9 +18,6 @@ Long (Equivalent to Android's Toast.LENGTH_LONG)
 #### Methods
 ShowToast(string text, ToastDuration duration)
 Shows a toast when the runtime environment is Android.
-
-### class AndroidBridge
-
 
 ## Install
 
