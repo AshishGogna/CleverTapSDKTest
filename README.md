@@ -7,8 +7,9 @@ This SDK provides a way to show toast messages on Android.
 ### class CleverTapSDK
 
 #### enum ToastDuration
-Short (Equivalent to Android's Toast.LENGTH_SHORT).
-Long (Equivalent to Android's Toast.LENGTH_LONG).
+Short (Equivalent to Android's Toast.LENGTH_SHORT)
+
+Long (Equivalent to Android's Toast.LENGTH_LONG)
 
 #### Methods
 ShowToast(string text, ToastDuration duration)
