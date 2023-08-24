@@ -39,4 +39,4 @@ While easier to follow than the first method, this one does not support dependen
 
 1. Download this respository as a .zip file
 2. Unzip
-3. Then click on the + button on the upper-left-hand corner of the Package Manager, select "Add package from disk" on the context menu, then select the package.json file.
+3. Then click on the + button on the upper-left-hand corner of the Package Manager, select "Add package from disk" on the context menu, then select the package.json file which is inside the extracted folder.
