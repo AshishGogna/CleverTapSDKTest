@@ -4,19 +4,22 @@ This SDK provides a way to show toast messages on Android.
 
 ## Documentation
 
-### CleverTapSDK class
+### class CleverTapSDK
 
 #### enum ToastDuration
-Short (Equivalent to Android's Toast.LENGTH_SHORT)
-Long (Equivalent to Android's Toast.LENGTH_LONG)
+Short (Equivalent to Android's Toast.LENGTH_SHORT).
+Long (Equivalent to Android's Toast.LENGTH_LONG).
 
 #### Methods
 ShowToast(string text, ToastDuration duration)
 Shows a toast when the runtime environment is Android.
 
+### class AndroidBridge
+
+
 ## Install
 
-### Through [Unity Package Manager](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
+#### Through [Unity Package Manager](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
 
 Unity's own Package Manager supports [importing packages through a URL to a Git repo](https://docs.unity3d.com/Manual/upm-ui-giturl.html):
 

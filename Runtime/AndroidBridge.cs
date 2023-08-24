@@ -5,6 +5,7 @@ using static CleverTapSDK;
 
 public class AndroidBridge
 {
+    #region Public functions
     public static void ShowToast(string text, ToastDuration duration)
     {
         using (AndroidJavaClass player = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
@@ -15,4 +16,5 @@ public class AndroidBridge
             toastObject.Call("show");
         }
     }
+    #endregion
 }
